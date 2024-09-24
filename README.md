@@ -1,5 +1,8 @@
 # Projeto - Formulário de contato
 
+<h1 align="center"><img src="img/AJ.gif"></h1>
+ 
+
 projeto criado como parte avaliativa da disciplina de Fundamentos de Desenvolvimento Web ministrada pelo professor Leonardo Rocha
 
 
