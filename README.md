@@ -21,24 +21,16 @@ O projeto consiste na construção de uma tela de contato geralmente presente em
 
 Foram usados os seguintes elementos:
 
-* main - Define o conteúdo principal dentro do <body> em seu documento ou aplicação.
+* main - Define o conteúdo principal dentro do body em seu documento ou aplicação.
 * Form - Define o formulário e os atributos que definem a maneira como esse formulário se comporta
 * textarea -  Representa um controle de edição para uma caixa de texto, útil quando você quer permitir ao usuário informar um texto extenso em formato livre, como um comentário ou formulário de retorno.
-
-Veja agora imagens dos elementos citados anteriormente:
-
-![Imagem ilustrativa dos elementos sendo utilizados no código]()
-
-
-Também foi utilizado:
-
 * Label - Dá nome para a área de escrita, seja e-mail ou senha.
 * Input -  Permite que o usuário escreva na página.
 * Button -  Cria um botão clicável.
 
-Segue a imagem ilustrativa:
+* Veja os elementos citados anteriormente:
 
-![Imagem ilustrativa dos elementos sendo utilizados no código]()
+![Imagem ilustrativa dos elementos sendo utilizados no código](img/html.PNG)
 
 Além dos elementos do HTML5, também foram usados as propriedades do CSS3. Segue aqui as utilizadas no projeto:
 
@@ -46,11 +38,11 @@ Além dos elementos do HTML5, também foram usados as propriedades do CSS3. Segu
 
 * Background-color - Altera a cor do fundo do projeto. Usada no fundo de tela e botão.
 
-![Imagem iustrando uso do elemento citado]()
+![Imagem iustrando uso do elemento citado](img/background-color.PNG)
 
 * Color - Foi usado par mudar a cor do texto do botão de enviar.
 
-![Imagem iustrando uso do elemento citado]()
+![Imagem iustrando uso do elemento citado](img/color.PNG)
 
 
 ##### Outros
@@ -63,13 +55,20 @@ Todos os itens abaixo foram usados na aba do botão.
 * Font-weight - A propriedade font-weight define quão grossos ou finos os caracteres do texto devem ser exibidos.
 
 ```
-
+button{
+    background-color: palevioletred;
+    width: 60px;
+    height: 30px;
+    color: white;
+    border: 1px solid black;
+    font-weight: bolder;
+}
 ```
 
 
 A seguir, ilustra a imagem do resultado final do projeto:
 
-![Resultado final do projeto]()
+![Resultado final do projeto](img/resultado.PNG)
 
 ### Estilização
 
@@ -79,13 +78,14 @@ O projeto foi estilizado, utilizando CSS3. Foi criado um arquivo main.css. Nesse
 
 ```
 .body{
-    background-color: pink;}
+    background-color: pink;
+    }
 ```
 
 ```
 button{
  background-color: palevioletred;
- }
+     }
 ```
 
 O elemento background-color foi utilizado con diferentes finalidades e cada parte do projeto, uma para definir o fundo total e outra como definição do fundo do botão de enviar.
